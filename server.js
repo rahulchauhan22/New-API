@@ -45,11 +45,7 @@ app.get('/', (req, res) => {
   
 //   handle incoming requests and return recommendations.
 
-  app.post('/recommendations', (req, res) => {
-    const studentInput = req.body;
-    const recommendations = getRecommendations(studentInput);
-    res.json(recommendations);
-  });
+  v
   
 // Implement error handling to manage unexpected situations, such as missing data or invalid inputs. This ensures your API remains robust and user-friendly.
 
