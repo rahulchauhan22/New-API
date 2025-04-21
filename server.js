@@ -27,7 +27,7 @@ fs.createReadStream(path.join(__dirname, 'data', 'jobss_cleaned.csv'))
     console.log('CSV file successfully processed');
   });
 
-  //  ADD THIS ROOT ROUTE RIGHT HERE
+  // ADD THIS ROOT ROUTE RIGHT HERE
 app.get('/', (req, res) => {
   res.send('API is running! You can POST to /recommendations');
 });
@@ -43,9 +43,7 @@ app.get('/', (req, res) => {
     });
   }
   
-//   handle incoming requests and return recommendations.
 
-  v
   
 // Implement error handling to manage unexpected situations, such as missing data or invalid inputs. This ensures your API remains robust and user-friendly.
 
