@@ -27,6 +27,10 @@ fs.createReadStream(path.join(__dirname, 'data', 'jobss_cleaned.csv'))
     console.log('CSV file successfully processed');
   });
 
+  //  ADD THIS ROOT ROUTE RIGHT HERE
+app.get('/', (req, res) => {
+  res.send('API is running! You can POST to /recommendations');
+});
 
   //  takes student inputs and returns career recommendations based on your dataset
 
